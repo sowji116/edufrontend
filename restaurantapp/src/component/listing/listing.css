@@ -1,0 +1,145 @@
+.first{
+    border: 2px solid black;
+    height:400px;
+    width:70%;
+    float: left;
+    margin-left: 2%;
+    margin-top: 2%; 
+}
+
+.second{
+    margin-top: 2%; 
+}
+
+
+body{
+    margin: auto;
+}
+
+#header{
+    width:100%;
+    height:50px;
+    background-color: red;
+    margin-left:1%;
+    margin-right:4%
+}
+
+span{
+    font-size:30px;
+}
+.logo{
+    font-size:30px;
+    color:white
+}
+
+.leftopt{
+    margin-right: 3%;
+}
+#filter{
+    height:1000px;
+    width:20%;
+    background-color:darkcyan;
+    float: left;
+    border:5px double black;
+    margin-top: 2%; 
+    margin-left: 2%; 
+    
+}
+
+.first{
+    width:80%;
+}
+
+.image{
+    width:50%;
+    height:100%;
+    float: left;
+}
+.details{
+    width:100%;
+    height:100%;
+}
+
+.maindiv{
+    width:100%;
+    height:60%;
+}
+
+.moredetails{
+    width:100%;
+    height:30%;
+}
+.imgClass{
+    height:220px;
+    width:100%
+}
+.myimg{
+    height:100px;width:15%;float:left;border-radius: 15%;margin-left: 30px;margin-top: 40px;
+}
+.heading{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 25px;
+    line-height: 1.53;
+    color: #192f60;
+    font-weight: bold;
+}
+.row-heading{
+    float: left;
+    margin-top: 45px;
+    text-align: justify;
+    margin-left: 40px;
+    line-height: 1.2;
+  }
+.locality{
+    color:#192f60;font-weight:500
+}
+.address{
+    color: #636f88;
+}
+.first1{
+    /* border: 2px solid black; */
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+    height:250px;
+    width:80%;
+    float: left;
+    margin-top: 4%;
+    /* margin-left: 2%; */
+    text-align: center;
+}
+.line {
+    border-top: 1px solid #dedfe5;
+  }
+  .cost{
+    font-size: small;
+    color:#636f88;
+    float: left;
+    width: 40%;
+    margin-left: -150px;
+    margin-top: 20px;
+  }
+  .bakery{
+    font-size: small;
+    color: #192f60;
+    float: left;
+    width: 50%;
+    margin-left: -10px;
+    margin-top: 20px;
+  }
+  .filter{
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+      /*height:750px;*/
+      width:20%;
+      background-color: white;
+      float: left;
+      /* border:5px double black; */
+      margin-top: 2%; 
+      margin-left: 2%; 
+  }
+  
+  .item{
+      width:60%;
+      float:right
+  }
+  .test{
+      width: 100%;
+  }
