@@ -17,10 +17,10 @@ class SortFilter extends Component{
             <React.Fragment>
                 <center className='filter-heading'>Sort</center>
                 <div onChange={this.sortfilter} className='cuisinefilter'>
-                    <label className="radio">
+                    <label>
                         <input type="radio" value="1" name="cuisine"/>Low - High
                     </label><br/>
-                    <label className="radio">
+                    <label>
                         <input type="radio" value="-1" name="cuisine"/>High - Low
                     </label><br/>
                 </div>

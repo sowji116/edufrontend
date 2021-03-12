@@ -24,22 +24,22 @@ class CostFilter extends Component{
             <React.Fragment>
                 <center className='filter-heading'>Cost</center>
                 <div onChange={this.Costfilter} className='cuisinefilter'>
-                    <label className="radio">
+                    <label >
                         <input type="radio" value="" name="cuisine"/>All
                     </label><br/>
-                    <label className="radio">
+                    <label>
                         <input type="radio" value="0,100" name="cuisine"/>0-100
                     </label><br/>
-                    <label className="radio">
+                    <label>
                         <input type="radio" value="101,200" name="cuisine"/>101-200
                     </label><br/>
-                    <label className="radio">
+                    <label>
                         <input type="radio" value="201,300" name="cuisine"/>201-300
                     </label><br/>
-                    <label className="radio">
+                    <label>
                         <input type="radio" value="301,400" name="cuisine"/>301-400
                     </label><br/>
-                    <label className="radio">
+                    <label>
                         <input type="radio" value="401,1000" name="cuisine"/>401-1000
                     </label>
                 </div>

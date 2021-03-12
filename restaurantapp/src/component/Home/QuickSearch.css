@@ -61,3 +61,30 @@
     height:180px;
     width:100%
 }
+@media screen and (min-width: 480px) {
+    body {
+      background-color: white;
+    }
+    .first{
+        width:20%;
+        margin-top: 2%; 
+    }
+  }
+
+@media screen and (min-width: 880px) {
+    body {
+      background-color: white;
+    }
+    .first{
+        width:40%;
+    }
+}
+
+@media screen and (min-width: 1000px) {
+    body {
+      background-color: white;
+    }
+    .first{
+        width:60%;
+    }
+}
