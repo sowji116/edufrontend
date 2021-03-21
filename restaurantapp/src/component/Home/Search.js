@@ -24,7 +24,7 @@ class Search extends Component{
         if(data){
             return data.map((item)=>{
                 return(
-                    <option value={item.city}>{item.name} | {item.city_name}</option>
+                    <option value={item.city_name}></option>
                 )
             })
         }
